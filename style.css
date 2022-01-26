@@ -1,5 +1,5 @@
 :root {
-  --text-color: rgb(2, 212, 2);
+  --text-color: red;
 }
 
 body {
@@ -9,13 +9,18 @@ body {
 }
 
 .nb-c {
-  background-color: rgb(178, 252, 252);
-  opacity: 0.5;
+  background-color: rgb(178, 252, 252, 0.5);
+}
+
+.link-color {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .logo {
   width: 100px;
-  opacity: 1;
 }
 
 .header {
