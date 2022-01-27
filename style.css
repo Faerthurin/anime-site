@@ -1,18 +1,26 @@
 :root {
   --text-color: red;
+  --font-header: "Tangerine", cursive;
 }
 
-body {
-  background-image: url("/background.jpg");
+@media (max-width: 600px) {
+  #fh {
+    font-size: 50px !important;
+  }
+}
+
+.bg-image {
+  background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .nb-c {
-  background-color: rgb(178, 252, 252, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);
 }
 
-.link-color {
+.navbar-dark .navbar-nav .link-color {
   color: var(--text-color);
   font-size: 18px;
   font-weight: bold;
@@ -22,8 +30,19 @@ body {
 .logo {
   width: 100px;
 }
+.bg-color {
+  background-color: rgb(0, 0, 0, 0.5);
+  margin: 320px 300px;
+}
 
 .header {
+  display: block;
   text-align: center;
   color: var(--text-color);
+  margin: 320px auto;
+  font-family: var(--font-header);
+}
+
+#fh {
+  font-size: 100px;
 }
