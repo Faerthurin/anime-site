@@ -1,12 +1,19 @@
 :root {
   --text-color: red;
   --font-header: "Tangerine", cursive;
+  --bg-color: rgb(0, 0, 0, 0.5);
 }
 
 @media (max-width: 600px) {
   #fh {
     font-size: 50px !important;
   }
+}
+.middle-container {
+  display: block;
+  margin: 0 auto;
+  width: 1500px;
+  background-color: var(--bg-color);
 }
 
 .bg-image {
@@ -42,6 +49,23 @@
   font-family: var(--font-header);
 }
 
+.alphabet-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.al-color {
+  color: var(--text-color);
+}
 #fh {
   font-size: 100px;
+}
+
+#list-header {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+  color: var(--text-color);
 }
