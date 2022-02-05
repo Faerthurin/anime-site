@@ -9,6 +9,34 @@
   #fh {
     font-size: 50px !important;
   }
+
+  .middle-container {
+    display: none;
+    margin: none;
+    width: 350px !important;
+  }
+
+  .list-header {
+    font-size: 25px !important;
+    text-align: left;
+  }
+  .alphabet-link {
+    display: none;
+    font-size: 25px !important;
+    text-align: left;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  hr {
+    width: 320px !important;
+  }
+
+  p {
+    text-align: center !important;
+  }
 }
 
 body {
