@@ -1,5 +1,6 @@
 :root {
   --text-color: red;
+  --main-color: rgb(0, 255, 0);
   --font-header: "Tangerine", cursive;
   --bg-color: rgb(0, 0, 0, 0.5);
 }
@@ -9,6 +10,26 @@
     font-size: 50px !important;
   }
 }
+
+body {
+  color: var(--main-color);
+}
+
+a {
+  color: var(--main-color);
+}
+
+hr {
+  margin-top: -5px;
+  margin-bottom: 15px;
+  height: 5px !important;
+  width: 450px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .middle-container {
   display: block;
   margin: 0 auto;
@@ -56,16 +77,24 @@
   font-size: 30px;
 }
 
-.al-color {
-  color: var(--text-color);
+a.size {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(0, 255, 0);
+  text-decoration: none;
 }
+
 #fh {
   font-size: 100px;
+}
+
+.list {
+  padding: 0;
 }
 
 #list-header {
   text-align: center;
   margin-top: 100px;
   font-size: 30px;
-  color: var(--text-color);
+  color: var(--main-color);
 }
